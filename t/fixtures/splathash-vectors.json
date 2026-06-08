@@ -1,0 +1,48 @@
+{
+  "reference": "github.com/junevm/splathash/src/go",
+  "reference_commit": "038b4f7025ec044ed9f319371e0ec2ed863a6f45",
+  "vectors": [
+    {
+      "name": "solid_red_1x1",
+      "width": 1,
+      "height": 1,
+      "hash_hex": "97f877de1f75787d25e1cb5788af7760",
+      "decode_sha256": "dc8b63e8b366a68162d342a08ef522cb7a87b414b83f6d13e00ddf0d3adf530e"
+    },
+    {
+      "name": "solid_blue_7x5",
+      "width": 7,
+      "height": 5,
+      "hash_hex": "79a077e21f75887d2621cb5808b0775e",
+      "decode_sha256": "81e37a1b7ac5ccc8db57cc566cb9eb12de637271f4a19eab17a738766052008a"
+    },
+    {
+      "name": "gradient_17x11",
+      "width": 17,
+      "height": 11,
+      "hash_hex": "9e103291dd72939b39f5b32a08aade66",
+      "decode_sha256": "3fbef0d0e956b4fb6d2674c3725cd2a9e51cdb04c357eb680ad6b63e56fe4f31"
+    },
+    {
+      "name": "checker_13x9",
+      "width": 13,
+      "height": 9,
+      "hash_hex": "95ee02722035c8807521cf401900373e",
+      "decode_sha256": "113767566b733b40b53dff09ae29b14b6e347093d2c15d5320a8c101735fc9e2"
+    },
+    {
+      "name": "spot_32x32",
+      "width": 32,
+      "height": 32,
+      "hash_hex": "51eeb47df9a377796362e4cd631ac232",
+      "decode_sha256": "27bcfb92e66e652389e1f62678b6c1c4e8d9f2b065b981f2f7787c95c2317b2a"
+    },
+    {
+      "name": "irregular_alpha_19x23",
+      "width": 19,
+      "height": 23,
+      "hash_hex": "9e0fdb01d8000775406229c1b6b21a34",
+      "decode_sha256": "25bb9cdb7f1810b6ec24594ca47ff8c4026ba49406fdc09c407b498d8441a18f"
+    }
+  ]
+}
