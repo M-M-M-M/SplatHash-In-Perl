@@ -6,7 +6,7 @@ use warnings ;
 use Exporter        qw(import) ;
 use SplatHash::Core () ;
 
-our $VERSION   = '0.001' ;
+our $VERSION   = '1.0.0' ;
 our @EXPORT_OK = qw(encode_raw encode_file decode) ;
 
 sub encode_raw {

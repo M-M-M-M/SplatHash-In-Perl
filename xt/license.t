@@ -27,10 +27,26 @@ like $readme, qr/\[MIT License\]\(LICENSE\)/,
   'README links to the project license' ;
 like $readme, qr/\[third-party licences\]\(LICENSES\/README\.md\)/,
   'README links to the third-party licence index' ;
+like $readme, qr/developed with assistance from OpenAI Codex/,
+  'README discloses Codex assistance' ;
+like $readme, qr/test-driven development workflow/,
+  'README identifies the TDD workflow' ;
+like $readme,
+  qr/plans and major decisions were\s+reviewed by a human maintainer/i,
+  'README describes the scope of human review' ;
+like $readme, qr/not received a comprehensive line-by-line human review/,
+  'README states the human review limitation' ;
+like $readme,
+  qr{\[perl-agents-md v1\.0\.0\]\(https://github\.com/M-M-M-M/perl-agents-md/releases/tag/v1\.0\.0\)},
+  'README links to the validated perl-agents-md release' ;
 
 my $assets = _read_text('ASSETS.md') ;
 like $assets, qr/\Q$upstream_path\E/,
   'asset provenance links to the upstream license' ;
+
+my $changelog = _read_text('CHANGELOG.md') ;
+like $changelog, qr/^## Unreleased\n\n## 1\.0\.0 - 2026-06-09$/m,
+  'changelog identifies the dated 1.0.0 release' ;
 
 done_testing ;
 

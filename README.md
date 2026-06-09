@@ -130,6 +130,18 @@ such as XS, while retaining the pure Perl implementation as a fallback.
 
 See [DOCUMENTATION.md](DOCUMENTATION.md) for API and algorithm details.
 
+## Development Provenance
+
+This project was developed with assistance from OpenAI Codex using a
+test-driven development workflow. Development plans and major decisions were
+reviewed by a human maintainer, and automated tests and checks were run. The
+source code has not received a comprehensive line-by-line human review.
+
+The project also served as a practical validation case during preparation of
+[perl-agents-md v1.0.0](https://github.com/M-M-M-M/perl-agents-md/releases/tag/v1.0.0).
+This statement describes the development process; it is not a certification of
+the project's quality or security.
+
 ## License
 
 This Perl port is available under the [MIT License](LICENSE), copyright
